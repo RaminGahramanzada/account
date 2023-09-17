@@ -1,10 +1,11 @@
 package com.javadevcom.account.dto;
 
 import com.javadevcom.account.model.Customer;
+import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 import java.util.stream.Collectors;
-
+@Component
 public class CustomerDtoConverter {
 
     private final CustomerAccountDtoConverter customerAccountDtoConverter;
